@@ -1,0 +1,4 @@
+C:\ActioNet\Position Description Library\PDLibrary\bin\Release\PDLibrary.dll
+C:\ActioNet\Position Description Library\PDLibrary\bin\Release\PDLibrary.pdb
+C:\ActioNet\Position Description Library\PDLibrary\obj\Release\PDLibrary.dll
+C:\ActioNet\Position Description Library\PDLibrary\obj\Release\PDLibrary.pdb

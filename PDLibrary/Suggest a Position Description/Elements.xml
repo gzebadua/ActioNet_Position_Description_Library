@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Suggest a Position Description" List="113" Url="_catalogs/wp">
+    <File Path="Suggest a Position Description\Suggest a Position Description.webpart" Url="Suggest a Position Description.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Volpe PD Library" />
+    </File>
+  </Module>
+</Elements>

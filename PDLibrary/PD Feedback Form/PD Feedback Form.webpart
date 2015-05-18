@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="PDLibrary.PD_Feedback_Form.PD_Feedback_Form, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">PD Feedback Form</property>
+        <property name="Description" type="string">Feedback Form for the PD Library</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

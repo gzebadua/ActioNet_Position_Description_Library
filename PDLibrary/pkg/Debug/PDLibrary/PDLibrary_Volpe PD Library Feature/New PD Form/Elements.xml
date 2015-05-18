@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="New PD Form" List="113" Url="_catalogs/wp">
+    <File Path="New PD Form\New PD Form.webpart" Url="New PD Form.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Volpe PD Library" />
+    </File>
+  </Module>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Webparts developed by Actionet for the Volpe PD Library project" Id="34910abf-68b8-46b5-bfe5-e6c8a8578d07" Scope="Site" Title="Volpe Actionet PD Library Custom Webparts">
+  <ElementManifests>
+    <ElementManifest Location="PD Feedback Form\Elements.xml" />
+    <ElementFile Location="PD Feedback Form\PDFeedbackForm.webpart" />
+    <ElementManifest Location="New PD Form\Elements.xml" />
+    <ElementFile Location="New PD Form\New Position Description Form.webpart" />
+    <ElementManifest Location="Edit PD Form\Elements.xml" />
+    <ElementFile Location="Edit PD Form\Edit PD Form.webpart" />
+    <ElementManifest Location="Search PD\Elements.xml" />
+    <ElementFile Location="Search PD\Search PD.webpart" />
+  </ElementManifests>
+</Feature>

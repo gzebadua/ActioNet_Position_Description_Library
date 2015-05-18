@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6007314E-62CC-4C57-BC7C-7778CEE30CFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PDLibrary</RootNamespace>
+    <AssemblyName>PDLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edit PD Form\Edit PD Form.cs" />
+    <Compile Include="Edit PD Form\Edit PD FormUserControl.ascx.cs">
+      <DependentUpon>Edit PD FormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit PD Form\Edit PD FormUserControl.ascx.designer.cs">
+      <DependentUpon>Edit PD FormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Volpe PD Library Feature\Volpe PD Library Feature.EventReceiver.cs">
+      <DependentUpon>Volpe PD Library Feature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="New PD Form\New PD Form.cs" />
+    <Compile Include="New PD Form\New PD FormUserControl.ascx.cs">
+      <DependentUpon>New PD FormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New PD Form\New PD FormUserControl.ascx.designer.cs">
+      <DependentUpon>New PD FormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PD Feedback Form\VolpePDFeedbackForm.cs" />
+    <Compile Include="PD Feedback Form\PD Feedback Form.ascx.cs">
+      <DependentUpon>PD Feedback Form.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PD Feedback Form\PD Feedback Form.ascx.designer.cs">
+      <DependentUpon>PD Feedback Form.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search PD Form\Search PD Form.cs" />
+    <Compile Include="Search PD Form\Search PD FormUserControl.ascx.cs">
+      <DependentUpon>Search PD FormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search PD Form\Search PD FormUserControl.ascx.designer.cs">
+      <DependentUpon>Search PD FormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suggest a Position Description\Suggest a Position Description.cs" />
+    <Compile Include="Suggest a Position Description\Suggest a Position DescriptionUserControl.ascx.cs">
+      <DependentUpon>Suggest a Position DescriptionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suggest a Position Description\Suggest a Position DescriptionUserControl.ascx.designer.cs">
+      <DependentUpon>Suggest a Position DescriptionUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Edit PD Form\Edit PD Form.webpart" />
+    <None Include="Edit PD Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99738b98-dc3d-4131-87b3-80404799a504}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Volpe PD Library Feature\Volpe PD Library Feature.feature">
+      <FeatureId>{b55125e3-eb71-4c82-bf58-02d70bedccd4}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{626052a6-336c-452b-bb43-8aea3a39e0be}</SharePointProjectItemId>
+    </None>
+    <None Include="New PD Form\New PD Form.webpart" />
+    <None Include="New PD Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f19ce5d-b4a2-48ae-805d-2948a9375299}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{0c9e2e15-9caa-440b-a3c0-8c3e4efe8a40}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="PD Feedback Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{beed5bf2-fa06-4375-8663-52e8a1a0a071}</SharePointProjectItemId>
+    </None>
+    <None Include="PD Feedback Form\PD Feedback Form.webpart" />
+    <None Include="Search PD Form\Search PD Form.webpart" />
+    <None Include="Search PD Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47c2b018-678e-4797-8719-e6ca1a9c0881}</SharePointProjectItemId>
+    </None>
+    <None Include="Suggest a Position Description\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02907c05-b4e8-42f8-b65b-6dd14e60b811}</SharePointProjectItemId>
+    </None>
+    <None Include="Suggest a Position Description\Suggest a Position Description.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Edit PD Form\Edit PD FormUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Edit PD Form\Elements.xml" />
+    <Content Include="Features\Volpe PD Library Feature\Volpe PD Library Feature.Template.xml">
+      <DependentUpon>Volpe PD Library Feature.feature</DependentUpon>
+    </Content>
+    <Content Include="New PD Form\Elements.xml" />
+    <Content Include="New PD Form\New PD FormUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="PD Feedback Form\Elements.xml" />
+    <Content Include="PD Feedback Form\PD Feedback Form.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Search PD Form\Elements.xml" />
+    <Content Include="Search PD Form\Search PD FormUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Suggest a Position Description\Elements.xml" />
+    <Content Include="Suggest a Position Description\Suggest a Position DescriptionUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

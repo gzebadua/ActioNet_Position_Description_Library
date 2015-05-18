@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0c9e2e15-9caa-440b-a3c0-8c3e4efe8a40" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="PDLibrary.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="PDLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b5fdee18bf6e293" Namespace="PDLibrary.VisualWebPart1" TypeName="*" />
+        <SafeControl Assembly="PDLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b5fdee18bf6e293" Namespace="PDLibrary.New_Position_Description_Form" TypeName="*" />
+        <SafeControl Assembly="PDLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b5fdee18bf6e293" Namespace="PDLibrary.Edit_PD_Form" TypeName="*" />
+        <SafeControl Assembly="PDLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b5fdee18bf6e293" Namespace="PDLibrary.Search_PD" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\PDLibrary\PD Feedback Form\PDFeedbackForm.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\PDLibrary\New PD Form\New Position Description FormUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\PDLibrary\Edit PD Form\Edit PD FormUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\PDLibrary\Search PD\Search PDUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="PDLibrary_Volpe PD Library Feature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

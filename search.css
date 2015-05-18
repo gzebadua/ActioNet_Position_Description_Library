@@ -1,0 +1,37 @@
+﻿<style>
+
+	.ms-vh2 a 
+	{
+		color:aqua;
+	}
+
+	.ms-alternating
+	{
+		background-color: #EEEEEE;
+	}
+	
+	.ms-viewheadertr 
+	{
+		background-color: #435E73 !important;
+	}
+	
+	.ms-vh, .ms-vh2, .ms-vh a, .ms-vh2 a 
+	{
+		color:white;
+		font-weight:bold;
+	}
+	
+	.ms-vh, .ms-vh2, .ms-vh a, .ms-vh2 a:hover
+	{
+		background-color: #435E73 !important;
+		color:white;
+		font-weight:bold;
+	}
+	
+	.s4-ctx a:hover{
+		background-color:transparent !important;
+	}
+
+}
+
+</style>

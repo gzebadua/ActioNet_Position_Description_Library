@@ -1,0 +1,5 @@
+C:\ActioNet\Position Description Library\PDLibrary\bin\Debug\PDLibrary.dll
+C:\ActioNet\Position Description Library\PDLibrary\bin\Debug\PDLibrary.pdb
+C:\ActioNet\Position Description Library\PDLibrary\obj\Debug\PDLibrary.dll
+C:\ActioNet\Position Description Library\PDLibrary\obj\Debug\PDLibrary.pdb
+C:\ActioNet\Position Description Library\PDLibrary\obj\Debug\PDLibrary.csprojResolveAssemblyReference.cache
